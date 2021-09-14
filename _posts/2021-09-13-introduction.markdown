@@ -3,7 +3,7 @@
 When I ran ruby --version, I already had ruby 2.3.7, but I went ahead and installed ruby from the command line. I then needed to change the permissions in my machine and run brew doctor in order to run gem install bundler. Brew doctor gave interesting and useful outputs, so I'm glad I discovered that.
 
 <h2>Installing Jekyll</h2>
-When installing Jekyll, I created a Gemfile.txt. But when I ran bundle install, I got an error that the machine could not locate my Gemfile. I was unsure of what the problem could be. After some [research][bundle-init], I learned you could create a Gemfile by running bundle init. It was then that I learned the file must be named "Gemfile" and not "Gemfile.txt."
+When installing Jekyll, I created a Gemfile.txt. But when I ran bundle install, I got an error that the machine could not locate my Gemfile. I was unsure of what the problem could be. After some [research](https://forestry.io/docs/troubleshooting/could-not-locate-gemfile-or-bundle-directory/), I learned you could create a Gemfile by running bundle init. It was then that I learned the file must be named "Gemfile" and not "Gemfile.txt."
 I was missing a gem, so I had to run bundle install a second time and 30 missing gems were installed. Installing Ruby and Jekyll from the command line was user friendly and easy to follow. I'm pleased with using this method of installation.
 
 <h2>Fixing the Default Blog</h2>
