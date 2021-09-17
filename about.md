@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This blog serves as a learning tool as I explore the capabilities of Jekyll.
-I am an undergraduate student taking a Databases and Web Systems course.
+I am an undergraduate student taking a Databases and Web Systems course at
+Hendrix College. This blog serves as a learning tool as I explore the capabilities
+of Jekyll.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
