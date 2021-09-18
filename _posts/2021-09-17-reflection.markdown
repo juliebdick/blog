@@ -14,4 +14,4 @@ I struggled with adding the CSCI 340 home page link to the nav bar in the header
 
 In this lab and the lab 3, I struggled with putting links into a markdown file using markdown language. The format of inserting link that is used in this blog's welcome-to-jekyll markdown file did not work for me in lab 3 nor this lab. But by using the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/), I learned to insert links a different way.
 <br><br>
-![image 2 here](blog/images/success.png)
+![I was finally successful with links](/blog/images/success.png)
