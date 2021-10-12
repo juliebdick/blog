@@ -1,7 +1,11 @@
 # Lab 7 Reflection
 The Razor Pages Web App with ASP.NET Core tutorial included nothing I was familiar with. Everything was new to me. One of the easiest parts of the tutorial was the project setup in Visual Studio. scaffolding, testing the app, updating the generated pages, and adding a search bar were all relatively simple tasks in the tutorial. It was interesting to turn the concept of searching for something through appending the criteria to the URL into a feature like a search bar.
 
-The most difficult parts of the tutorial were 
+One of the most difficult parts of the tutorial was creating the initial database schema using EF's migration feature. This took a lot of trial and error to get past in the Movie tutorial, but I eventually succeeded. My problem seemed to be due to issues of calling the add InitialCreate command in the wrong directory. However, when I got to this step in my own implementation, Absolutely nothing I tried would run the add InitialCreate. I tried each nested directory above and below the project. I tried what fixed the issue in the tutorial. I checked my SDK. I got very stuck on this step. My project successfully built, and it would run in the browser without issues. I got stuck here with the following error:<br>
+Method 'Create' in type 'Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitorFactory' from assembly 'Microsoft.EntityFrameworkCore.Sqlite, Version=3.1.19.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' does not have an implementation.
 
-hardest parts: adding a model - creating the initial database schema using EF's migration feature
-adding a new field/column (rating in step 7)
+The second most difficult part of the tutorial was adding a new field, or column to the database. In the Movie project, I was unable to successfully add the Rating field to the app. When I would run the app, I would receive errors relating to SQLite. I was sure to go to the files that were linked on the tutorial to make sure my Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, and Index.cshtml were correct when I added the relevant lines, but I was unable to get past this obstacle.
+
+Click [here](https://github.com/juliebdick/csci340lab7) to view my Lab 7.
+
+I saw parallels between the Jekyll Minima and Gem files and the Razor EF and SQLite. Both caused me similar issues with locating the correct files on my local machine. I think I like Jekyll better than Razor because Jekyll seems to have less moving parts, but the Razor tutorial did allow me to do more (like add a search bar and filter) in seemingly less time. If I can successfully get past my issues with "dotnet ef migrations add InitialCreate," I feel confident in making another Razor application. 
