@@ -1,8 +1,8 @@
-#Lab 8 Reflection
+# Lab 8 Reflection
 
-##Challenges
+## Challenges
 
-During this [Entity Framework Lab] (https://github.com/juliebdick/csci340lab8.2), I immediately ran into issues with Visual Studios on this lab. When I tried to run the bare project, my lab 7 project would appear in the browser instead of the new project. It took me three days to figure out that the lab 7 process was live at port 5001 since I had run it the first time.
+During this [Entity Framework Lab](https://github.com/juliebdick/csci340lab8.2), I immediately ran into issues with Visual Studios on this lab. When I tried to run the bare project, my lab 7 project would appear in the browser instead of the new project. It took me three days to figure out that the lab 7 process was live at port 5001 since I had run it the first time.
 
 After that obstacle, it was mostly smooth sailing. The most confusing parts of the tutorial were the Create, Read, update, and Delete step and the Migrations step. These definitely became easier by the end of the tutorial, but when they were new, it took me a while to complete. Something I was unable to figure out was the DbSet global change. When we were changing "Student" to "Students," I had to manually change all eight occurrences. I am still unsure as to what I was doing wrong.
 
@@ -11,7 +11,7 @@ In sorting and filtering, my column headers got off. The "Age" header was over l
 When I got to the end of step three, I struggled with my About page. When I clicked on it in the browser, nothing would happen. I thought when I made an About.cshtml file, the About.cshtml.cs file would automatically appear, but it did not and I made the latter file manually. I must have created the file in the wrong location because my first try, the .cshtml.cs file did not appear underneath the .cshtml file. But on my second try, I got it to work.
 
 
-##Changes
+## Changes
 
 I did a few things outside of the tutorial. Besides making the project with the name Hendrix College instead of Contoso University, I added a majors navigation item to _Layout.cshtml to produce a Majors tab on the site. This provides a spot for future implementation about the different majors offered at the school, and for the entire site to be specified to Hendrix. The name of the project being changed was something that appeared in every file in the project.
 
