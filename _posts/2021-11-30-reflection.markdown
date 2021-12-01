@@ -8,7 +8,7 @@ Initially, we divided up the work load into the three sections provided in the [
 
 ## Obstacles
 
-After completing the third step, we quickly realized that creating the production SQL Database is extremely tricky. We had trouble with the server firewall and also with the connection string. I was out of town during a lab work day, so I was able to try to initialize the database from a different IP address than the rest of my team. We got more to work this way, but we still had major unfamiliar errors. Even after several hours of work, we were unsuccessful in creating the web application.
+After completing the third step, we quickly realized that creating the production SQL Database is extremely tricky. We had trouble with the server firewall and also with the connection string. I was out of town during a lab work day, so I was able to try to initialize the database from a different IP address than the rest of my team. We got more to work this way, but we still had major unfamiliar errors. Even after several hours of work, we were unsuccessful in creating the web application. The current version of our Lab 9 is located [here](https://github.com/cathymariza/csci340lab9).
 
 ## Teamwork
 
