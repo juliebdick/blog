@@ -1,7 +1,6 @@
 # CSCI 340 Final Project - Service to the World Reflection
 ## Arkansas Assest Builders - Client User Interface
 
-![AAB logo](blog/images/AAB.png)<br><br>
 [Arkansas Asset Builders](https://arkansasassetbuilders.org/)<br>
 [Our project](https://github.com/garrettcallyer/ArkansasAssetBuilders)<br>
 
