@@ -1,9 +1,9 @@
 # CSCI 340 Final Project - Service to the World Reflection
 ## Arkansas Assest Builders - Client User Interface
 
-![AAB logo](/blog/images/AAB-Logo-Web-Long.png)
-[Arkansas Asset Builders](https://arkansasassetbuilders.org/)
-[Our project](https://github.com/garrettcallyer/ArkansasAssetBuilders)
+![AAB logo](/blog/images/AAB-Logo-Web-Long.png)<br><br>
+[Arkansas Asset Builders](https://arkansasassetbuilders.org/)<br>
+[Our project](https://github.com/garrettcallyer/ArkansasAssetBuilders)<br>
 
 In Computer Science 340 course in the Fall of 2021, I worked on a project to creating a website for the admin of Arkansas Asset Builders of which the purpose was to create a simple user interface for the client to query their data into statistical reports.
 
